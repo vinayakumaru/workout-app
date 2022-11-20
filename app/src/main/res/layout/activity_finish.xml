@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/AppColor"
+    tools:context=".FinishActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFinishActivity"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/AppColor"
+        />
+
+    <TextView
+        android:id="@+id/tvEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="END"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"/>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/item_circular_color_accent_border"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:contentDescription="start image"
+            android:src="@drawable/ic_tick_mark"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Congratulations!"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="You are done for the day"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/colorAccent"/>
+</LinearLayout>

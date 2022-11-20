@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="startImage">startImage</string>
+    <string name="start">START</string>
+    <string name="timer">Timer</string>
+    <string name="bmi">BMI</string>
+    <string name="settingsData">com.example.workoutApp.settingsData</string>
+    <string name="RestTime">RestTime</string>
+    <string name="ExerciseTime">ExerciseTime</string>
+    <string name="exercise_time">Exercise Time (in Seconds):</string>
+    <string name="rest_time_in_seconds">Rest time (in Seconds):</string>
+    <string name="read_out_exercise_name">Read out exercise name</string>
+    <string name="exercise_completion_sound_alert">Exercise completion sound alert</string>
+    <string name="speak_out">speakOut</string>
+    <string name="media_sound">mediaSound</string>
+</resources>
